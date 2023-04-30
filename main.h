@@ -8,16 +8,11 @@
 #include <cctype>
 #include <algorithm>
 
-
-class Student;
-class Grading;
-class Course; 
+class Student;  //forward declaration
+class Grading;  //forward declaration
+class Course;   //forward declaration
 
 using namespace std;
 
-// extern fstream student_tbl;
-// extern fstream course_tbl;
-
-// extern int g_int;
 
 #endif
